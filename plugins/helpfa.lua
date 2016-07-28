@@ -3,192 +3,193 @@ do
 function run(msg, matches)
   return [[ ⭕️دستورات فارسی ربات:
 ___________________
-#info
+/info
 🔰اطلاعات سوپر گروه🔰
 
-#infull
+/infull
 🔰اطلاعات کامل خود🔰
 
-#admins
+/admins
 🔰لیست ادمین های سوپر گروه🔰
 
-#setadmin
+/setadmin
 🔰تنظیم ادمین سوپر گروه🔰
 
-#owner
+/owner
 🔰مالک سوپر گروه🔰
 
-#setowner
+/setowner
 🔰تنظیم مالک سوپر گروه🔰
 
-#modlist
+/modlist
 🔰لیست مدیران🔰
 
-#bots
+/bots
 🔰لیست ربات ها در سوپر گروه🔰
 
-#bot [lock|unlock]
+/bot (lock|unlock)
 🔰قفل|باز کردن ربات در سوپر گروه🔰
 
-#who
+/who
 🔰لیست کل کاربران در سوپر گروه🔰
 
-#block
+/block
 🔰اخراج شخص از سوپر گروه🔰
 (ورود شخص به لیست مسدودان)
 
-#ban 
+/ban 
 🔰مسدود کردن شخص از سوپر گروه🔰
 
-#unban
+/unban
 🔰حذف مسدودی شخص از سوپر گروه🔰
 
-#id
+/id
 🔰ایدی سوپر گروه (و ایدی شخص با ریپلی)🔰
 
-#id from
+/id from
 🔰ایدی شخص فوروارد کننده پیام🔰
 
-#kickme
+/kickme
 🔰خروج از سوپر گروه🔰
 
-#promote [username|id]
+/promote [username|id]
 🔰ارتقاع کاربر به مدیر سوپر گروه🔰
 
-#demote [username|id]
+/demote [username|id]
 🔰حذف مدیر سوپر گروه🔰
 
-#setname [name]
+/setname [name]
 🔰تنظیم نام گروه🔰
 
-#setphoto 
+/setphoto 
 🔰تنظیم عکس گروه🔰
 
-#setrules [rules]
+/setrules [rules]
 🔰تنظیم قوانین گروه🔰
 
-#setabout [about]
+/setabout [about]
 🔰تنظیم موضوع گروه🔰
 
-#save [value] <text>
+/save [value] <text>
 🔰یادداشت متن های گروه🔰
 
-#get [value]
+/get [value]
 🔰مشاهده یک متن گروه🔰
 
-#newlink
+/newlink
 🔰ساخت لینک جدید🔰
 
-#link
+/link
 🔰لینک فعلی گروه🔰
 
-#linkpv
+/linkpv
 🔰فرستادن لینک سوپر گروه در پیوی🔰
 
-#rules
+/rules
 🔰قوانین گر‌وه🔰
 
-#lock [links|flood|spam|arabic|member|rtl|sticker|contacts|strict|tgservice|forward]
+/lock [links|flood|spam|arabic|member|rtl|sticker|contacts|strict|tgservice|forward]
 🔰قفل موارد بالا🔰
 
-#unlock [links|flood|spam|arabic|member|rtl|sticker|contacts|strict|tgservice|forward]
+/unlock [links|flood|spam|arabic|member|rtl|sticker|contacts|strict|tgservice|forward]
 🔰باز کردن موارد بالا🔰
 
-#mute [all|audio|gifs|photo|video|text|service]
+/mute [all|audio|gifs|photo|video|text|service]
 🔰موت موارد بالا🔰
 
-#unmute [all|audio|gifs|photo|video|text|service]
+/unmute [all|audio|gifs|photo|video|text|service]
 🔰لغو موت موارد بالا🔰
 
-#setflood [value]
+/setflood [value]
 🔰تنظیم اندازه حساسیت اسپم🔰
 
-#settings
+/settings
 🔰تنظیمات سوپر گروه🔰
 
-#muteslist
+/muteslist
 🔰لیست موت های سوپر گروه🔰
 
-#muteuser [username|id]
+/muteuser [username|id]
 🔰موت و باز کردن موت شخصی🔰
 
-#mutelist
+/mutelist
 🔰لیست کاربران موت شده🔰
 
-#banlist 
+/banlist 
 🔰لیست مسدودان🔰
 
-#clean [rules|about|modlist|mutelist]
+/clean [rules|about|modlist|mutelist]
 🔰پاک کردن موارد بالا🔰
 
-#del 
+/del 
 🔰پاک کردن یک پیام با ریپلی🔰
 
-#public [yes|no]
+/public [yes|no]
 🔰خصوصی و عمومی کردن سوپر گروه🔰
 
-#res [username]
+/res [username]
 🔰ایدی شخص با یوزرنیم🔰
 
-#log
+/log
 🔰لوگ سوپر گروه🔰
 
-#addword [text]
+/addword [text]
 🔰فیلتر کردن متن🔰
 
-#badwords
+/badwords
 🔰لیست متن های فیلتر شده🔰
 
-#rw [text]
+/rw [text]
 🔰حذف متن از لیست فیلتر ها🔰
 
-#clearbadwords
+/clearbadwords
 🔰حذف تمامی فیلتر ها🔰
 
-#me
+/me
 🔰مشخصات شما🔰
 
-#tophoto
+/tophoto
 🔰تبدیل استیکر به عکس🔰
 
-#tosticker 
+/tosticker 
 🔰تبدیل عکس به استیکر🔰
 
-#conv [text]
+/conv [text]
 🔰ساخت عکس نوشته🔰
 
-#sticker [text]
+/sticker [text]
 🔰ساخت استیکر نوشته🔰
 
-#wai
+/wai
 🔰مشاهده ی مقام شما🔰
 
-#voice [text]
+/voice [text]
 🔰تبدیل متن به صدا🔰
 
-#support 
+/support 
 🔰دریافت لینک ساپورت ربات🔰
 
-#clan [tag]
+/clan [tag]
 🔰مشخصات کلن شما🔰
 
-#nerkh
+/nerkh
 🔰نرخ گروه با ربات🔰
 
-#weather [city]
+/weather [city]
 🔰آب و هوای شهر مورد نظر🔰
 
-#Insta 
+/Insta 
 🔰یافت مشخصات اینستاگرام فرد🔰
 
-#time
+/time
 🔰دریافت زمان شهر و زمان شمسی قمری🔰
 
-#tr [en,fa] [text]
+/tr [en,fa] [text]
 🔰ترجمه کلمات انگلیسی به فارسی. فارسی به انگلیسی🔰 
 ___________________
 *شما میتوانید از علامت های (!)(/)(#)*
-Channel: @WaderTGTeam]]
+
+Channel: @TeleUmbrella_team]]
 
 end
 
