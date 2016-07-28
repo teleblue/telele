@@ -249,19 +249,17 @@ function create_config( )
 	"voice",
 	"wai"
     },
-    sudo_users = {67559249,71951412,154868817,143531868,0,tonumber(our_id)},--Sudo users
+    sudo_users = {80882965,1050510048,0,0,0,tonumber(our_id)},--Sudo users
     moderation = {data = 'data/moderation.json'},
     about_text = [[WaderTG v4
 An advanced administration bot based on TG-CLI written in Lua
 
 Admins
-@mohammadsdi4799
-@iphonei
-@Amin1779
-@Oo_hamed_ice_fuckeram_oO
+@persianfa
+
 
 Our channels
-@WaderTGTeam
+@teleumbrella_team
 
 thankyou for all admins bot WaderTG
 ]],
@@ -478,7 +476,7 @@ will return group ban list
 
 *Only owner can use res,setowner,promote,demote and log commands
 
-channel:@WaderTGTeam
+channel:@teleumbrella_team
 ]],
 	help_text_super =[[
 WaderTG SuperGroup Commands :
@@ -659,7 +657,7 @@ To show office user
 Text-to-voice
 =========================
 *Only from markes "!" , "/" , "#" use*
-Channel:@WaderTGTeam
+Channel:@teleumbrella_team
 ]],
   }
   serialize_to_file(config, './data/config.lua')
